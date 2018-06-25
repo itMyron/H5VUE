@@ -1,0 +1,120 @@
+.contain {
+    height: 100%;
+    background: #F4F4F4;
+    padding-top: 40px;
+    .section {
+        .news1 {
+            margin: 0 auto;
+            width: 600px;
+            height: 88px;
+            line-height: 88px;
+            border: 2PX solid #ff7700;
+            color: #ff5b00;
+            font-size: 28px;
+            text-align: center;
+            border-radius: 5PX;
+        }
+        .news2 {
+            background: linear-gradient(to left, #ff8f00, #ff5001);
+            margin: 0 auto;
+            width: 600px;
+            height: 86px;
+            line-height: 86px;
+            border: 2PX solid #ff7700;
+            color: #ff5b00;
+            font-size: 32px;
+            text-align: center;
+            border-radius: 5PX;
+            .list1 {
+                width: 70px;
+                height: 70px;
+                margin: 8px 30px;
+                border-radius: 35px;
+                background: #FFFA90; // float: left;
+            }
+            .list2 {
+                width: 600px;
+                height: 100%;
+                .top {
+                    width: 100%;
+                    height: 43px;
+                    line-height: 43px;
+                    font-size: 32px;
+                    color: #fff;
+                    text-align: center;
+                }
+                .bottom {
+                    width: 100%;
+                    height: 43px;
+                    line-height: 43px;
+                    font-size: 24px;
+                    color: #fff;
+                    text-align: center;
+                }
+            }
+        }
+        .news3 {
+            margin: 0 auto;
+            width: 600px;
+            height: 88px;
+            line-height: 88px;
+            border: 2PX solid #aeb0c7;
+            color: #aeb0c7;
+            font-size: 28px;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+        .news4 {
+            margin: 0 auto;
+            width: 676px;
+            background: #fff;
+            border-radius: 5PX;
+            padding: 10px 0;
+            border-bottom: 1PX solid #CCCCCC;
+            #sure {
+                margin: 20px auto;
+                text-align: center;
+                width: 200px;
+                padding: 20px 50px;
+                background: #204D74;
+                border-radius: 5PX;
+                color: #fff;
+                font-size: 28px;
+            }
+            #phoneTxt {
+                padding: 0 30px;
+            }
+            .list3 {
+                height: 70px;
+                line-height: 70px;
+                border-bottom: 2PX solid #CCCCCC;
+                span {
+                    padding: 0 30px;
+                    font-size: 32px;
+                    color: #000333;
+                }
+                input {
+                    width: 200px;
+                    height: 50px;
+                    border: 0;
+                }
+            }
+        }
+        .list {
+            #getCode {
+                display: block;
+                float: right;
+                margin-right: 10px;
+                width: 202px;
+                text-align: center;
+                height: 66px;
+                line-height: 66px;
+                border: 1PX solid #ff5b00;
+                border-radius: 5PX;
+                color: #ff5b00;
+                background: #fff;
+            }
+        }
+    }
+}

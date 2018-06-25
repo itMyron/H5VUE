@@ -1,0 +1,129 @@
+@import "../../../../static/mixin.scss";
+.contain {
+    height: 100%;
+    background: #F4F4F4;
+    input {
+        font-size: $inputFontSize;
+        padding-left: 5px;
+    }
+    select {
+        font-size: $selectFontSize;
+        width: 300px;
+        height: 60px;
+        float: right;
+    }
+    .header {
+        height: 90px;
+        padding-left: 38px;
+        p {
+            height: 90px;
+            line-height: 90px;
+            color: #FF5B00;
+            font-size: 28px;
+        }
+    }
+    .section {
+        .news {
+            background: #fff;
+            padding: 0 38px;
+            margin-bottom: 32px;
+            .list {
+                height: 68px;
+                line-height: 68px;
+                padding-top: 58px;
+                border-bottom: 2PX solid #d9dae6;
+                span {
+                    display: block;
+                    float: left;
+                    width: 170px;
+                    height: 68px;
+                    line-height: 68px;
+                    color: #000333;
+                    font-size: 32px;
+                }
+                input {
+                    display: block;
+                    float: left;
+                    height: 68px;
+                    line-height: 68px;
+                    width: 490px;
+                    border: none;
+                }
+            }
+        }
+        .news1 {
+            .list3 {
+                select {
+                    width: 250px;
+                    height: 50px;
+                }
+            }
+        }
+        .news2 {
+            .list2 {
+                input {
+                    width: 284px;
+                    border: none;
+                }
+                a {
+                    display: block;
+                    float: right;
+                    width: 202px;
+                    text-align: center;
+                    height: 66px;
+                    line-height: 66px;
+                    border: 1PX solid #ff5b00;
+                    border-radius: 5PX;
+                    color: #ff5b00;
+                }
+            }
+            .list {
+                i {
+                    display: block;
+                    float: left;
+                }
+            }
+        }
+        .news4 {
+            .list {
+                #authCode {
+                    width: 250px;
+                    border: none;
+                }
+            }
+        }
+        #getCode {
+            display: block;
+            float: right;
+            width: 202px;
+            text-align: center;
+            height: 66px;
+            line-height: 66px;
+            border: 1PX solid #ff5b00;
+            border-radius: 5PX;
+            color: #ff5b00;
+            background: #fff;
+        }
+        .changeCode {
+            color: #686d9b !important;
+            border-color: #b3b6cd !important;
+        }
+    }
+    .footer {
+        width: 100%;
+        height: 88px;
+        margin-top: 40px;
+        text-align: center;
+        .btn {
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            height: 88px;
+            line-height: 88px;
+            color: #fff;
+            font-size: 32px;
+            background: linear-gradient(to left, #ff8f00, #ff5001);
+            border-radius: 5PX;
+        }
+    }
+}

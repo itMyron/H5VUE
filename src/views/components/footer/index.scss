@@ -1,0 +1,106 @@
+#footerWrap {
+    height: 100px;
+    #footer {
+        position: fixed;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        justify-content: space-around;
+        background: #FFF;
+        padding: 10px 0;
+        p {
+            float: left;
+            width: 25%;
+            height: 100px;
+            background: #fff;
+            a {
+                display: block;
+                width: 100%;
+                height: 50px;
+                line-height: 50px;
+                color: #000333;
+                font-size: 22px;
+                text-align: center;
+                color: #000333;
+            }
+            span {
+                display: block;
+                margin: 0 auto;
+                width: 50px;
+                height: 50px;
+            }
+        }
+        .home {
+            span {
+                background: url(../../../assets/footer/icon1.png) no-repeat center !important;
+                background-size: cover !important;
+            }
+            a {
+                color: #ff5001 !important;
+            }
+        }
+        .home_1 {
+            span {
+                background: url(../../../assets/footer/icon1-1.png) no-repeat center;
+                background-size: cover;
+            }
+            a {
+                color: #000333;
+            }
+        }
+        .loan {
+            span {
+                background: url(../../../assets/footer/icon2.png) no-repeat center !important;
+                background-size: cover !important;
+            }
+            a {
+                color: #ff5001 !important;
+            }
+        }
+        .loan_1 {
+            span {
+                background: url(../../../assets/footer/icon2-2.png) no-repeat center;
+                background-size: cover;
+            }
+            a {
+                color: #000333;
+            }
+        }
+        .find {
+            span {
+                background: url(../../../assets/footer/icon3.png) no-repeat center !important;
+                background-size: cover !important;
+            }
+            a {
+                color: #ff5001;
+            }
+        }
+        .find_1 {
+            span {
+                background: url(../../../assets/footer/icon3-3.png) no-repeat center;
+                background-size: cover;
+            }
+            a {
+                color: #000333;
+            }
+        }
+        .mine {
+            span {
+                background: url(../../../assets/footer/icon4.png) no-repeat center !important;
+                background-size: cover !important;
+            }
+            a {
+                color: #ff5001 !important;
+            }
+        }
+        .mine_1 {
+            span {
+                background: url(../../../assets/footer/icon4-4.png) no-repeat center;
+                background-size: cover;
+            }
+            a {
+                color: #000333;
+            }
+        }
+    }
+}

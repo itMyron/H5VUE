@@ -1,0 +1,162 @@
+.contain {
+    height: 100%;
+    .header {
+        height: 280px;
+        background: url(../../../assets/loan/loanDetail/bg.png) no-repeat center;
+        background-size: cover;
+        padding-left: 50px;
+        padding-top: 60px;
+        .list1,
+        .list3 {
+            font-size: 32px;
+            color: #ffa66f;
+            padding: 20px 0;
+        }
+        .list2 {
+            font-size: 80px;
+            color: #fff;
+            span {
+                font-size: 28px;
+            }
+        }
+        .list3 {
+            span {
+                font-size: 30px;
+                color: #ffa66f;
+                font-weight: 600;
+            }
+            b {
+                font-size: 30px;
+                color: #fff;
+                margin-left: 20px;
+            }
+        }
+    }
+    .section {
+        .news {
+            background: #fff;
+            padding: 0 38px;
+        }
+        .news1 {
+            .list {
+                i {
+                    font-style: normal;
+                    display: block;
+                    float: left;
+                    width: 20px;
+                    height: 20px;
+                    margin-top: 35px;
+                    background: url(../../../assets/loan/loanDetail/aside.png) no-repeat center;
+                    background-size: cover;
+                }
+                span {
+                    display: block;
+                    float: left;
+                    height: 88px;
+                    line-height: 88px;
+                    padding-left: 50px;
+                    color: #000333;
+                    font-size: 36px;
+                }
+                strong {
+                    font-style: 100;
+                    display: block;
+                    float: left;
+                    height: 88px;
+                    line-height: 88px;
+                    padding-left: 50px;
+                    color: #ff5b00;
+                    font-size: 36px;
+                }
+                p {
+                    float: left;
+                    width: 70%;
+                    font-size: 30px;
+                    color: #686d9b;
+                    padding-left: 70px;
+                    margin-top: -10px;
+                    margin-bottom: 20px;
+                    a {
+                        color: #000333;
+                        float: right;
+                        font-size: 28px;
+                        margin-right: 200px;
+                    }
+                }
+            }
+        }
+        .news2 {
+            height: 88px;
+            margin-top: 53px;
+            position: relative;
+            .declaration {
+                padding: 0 50px;
+                color: #ff5b00;
+            }
+            .btn {
+                position: absolute;
+                left: 50%;
+                top: 100px;
+                margin-left: -300px;
+                width: 600px;
+                text-align: center;
+                height: 88px;
+                line-height: 88px;
+                color: #fff;
+                font-size: 32px;
+                background: linear-gradient(to left, #ff8f00, #ff5001);
+                border-radius: 5PX;
+            }
+        }
+        .news3 {
+            padding: 300px 0 0 0;
+            .list1 {
+                height: 60px;
+                line-height: 60px;
+                width: 300px;
+                margin: 0 auto;
+                padding-left: 60px;
+                color: #FF5B00;
+                span {
+                    float: left;
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    background: url(../../../assets/loan/loanDetail/icon35.png) no-repeat left center;
+                    background-size: cover;
+                }
+                a {
+                    float: left;
+                }
+            }
+            .list2 {
+                height: 60px;
+                line-height: 60px;
+                width: 300px;
+                margin: 0 auto;
+                padding-left: 60px;
+                span {
+                    float: left;
+                    display: block;
+                    width: 30px;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    height: 30px;
+                    background: url(../../../assets/loan/loanDetail/icon36.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+    .footer {
+        position: fixed;
+        bottom: 0;
+        height: 100px;
+        width: 100%;
+        justify-content: space-around;
+        background: #FFF;
+        padding: 10px 0;
+    }
+}

@@ -1,0 +1,102 @@
+.contain {
+    height: 100%;
+    background: #F4F4F4;
+}
+
+#section {
+    padding: 0px 30px 80px 30px;
+}
+
+#section article {
+    padding: 30px 0px;
+    border-bottom: 1PX solid #CCCCCC;
+}
+
+.list {
+    padding: 12px 0;
+}
+
+.news .list span {
+    color: #000333;
+    display: inline-block;
+    width: 220px;
+    font-size: 32px;
+}
+
+.news1 .list font {
+    color: #000333;
+    font-size: 32px;
+}
+
+.news2 .list font,
+.news3 .list font {
+    color: #000333;
+    float: right;
+    font-size: 32px;
+}
+
+.news2 .list strong {
+    font-size: 32px;
+    color: #000333;
+}
+
+.news3 .list i {
+    padding: 20px;
+    background: url(../../../../assets/user/record/recordDetail/yi.png) no-repeat center;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+.news3 .list3 i {
+    background: url(../../../../assets/user/record/recordDetail/wei.png) no-repeat center;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+.news3 .yi {
+    font {
+        color: #ff5001 !important;
+    }
+    span {
+        color: #ff5001 !important;
+    }
+    i {
+        background: url(../../../../assets/user/record/recordDetail/yi.png) no-repeat center !important;
+        background-size: contain !important;
+    }
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    justify-content: space-around;
+    background: #FFF;
+    padding: 10px 0;
+}
+
+#footer p {
+    float: left;
+    width: 25%;
+    height: 100px;
+    background: #fff;
+}
+
+#footer p span {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+#footer p a {
+    display: block;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #000333;
+    font-size: 22px;
+    text-align: center;
+    color: #000333;
+}

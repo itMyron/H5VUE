@@ -1,0 +1,99 @@
+#contain {
+    height: 100%;
+    background: #F4F4F4;
+    .news {
+        background: #F4F4F4;
+        padding: 0 22px;
+    }
+    .news1 {
+        .list1 {
+            height: 90px;
+            line-height: 90px;
+            background: #fff;
+            border-radius: 5px 5px 0 0;
+            padding: 0 50px;
+            b {
+                font-weight: 400;
+                color: #000333;
+                font-size: 30px;
+            }
+            span {
+                margin-left: 200px;
+                font-size: 30px;
+            }
+            strong {
+                font-weight: 400;
+                color: #000333;
+                font-size: 30px;
+                float: right;
+                margin-right: 30px;
+            }
+        }
+    }
+    .news2 {
+        .list1 {
+            background: url(../../../../assets/agencyFee/payAgencyFeeZJ/division.png) no-repeat left center;
+            background-size: cover;
+            height: 32px;
+        }
+    }
+    .news3 {
+        .list {
+            background: #fff;
+            height: 32px;
+            line-height: 32px;
+            padding: 20px 50px;
+            font-size: 29px;
+            font-weight: 500;
+        }
+        .list2 {
+            padding-bottom: 50px;
+            .num {
+                width: 380px;
+                height: 65px;
+                border: 1px solid #686D9B;
+                border-radius: 5PX;
+            }
+            .send {
+                display: inline-block;
+                padding: 12px 15px;
+                border: 1px solid #ff5b00;
+                border-radius: 5PX;
+                color: #ff5b00;
+                font-size: 28px;
+                background: #fff;
+                float: right;
+            }
+            .changeCode {
+                color: #686d9b !important;
+                border-color: #b3b6cd !important;
+            }
+        }
+    }
+    .news4 {
+        margin-top: 40px;
+        .agree {
+            padding: 20px;
+            margin: 0 auto;
+            text-align: center;
+            span {
+                font-size: 24px;
+            }
+            a {
+                font-size: 24px;
+                color: #0000FF;
+            }
+        }
+        .btn {
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            height: 88px;
+            line-height: 88px;
+            color: #fff;
+            font-size: 32px;
+            background: linear-gradient(to left, #ff8f00, #ff5001);
+            border-radius: 5px;
+        }
+    }
+}

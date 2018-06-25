@@ -1,0 +1,68 @@
+.red {
+    color: #FF5001; //background: url(../../images/icons/no.png) no-repeat 0.3px center;
+}
+
+.green {
+    color: #73ea80; //background: url(../../images/icons/yes.png) no-repeat 0.3px center;
+}
+
+#contain {
+    background: #f4f4f4;
+    header {
+        padding-top: 30px;
+        height: 90px;
+        line-height: 90px;
+        .state {
+            span {
+                float: left;
+                margin-left: 70px;
+                display: inline-block;
+                width: 120px;
+                height: 60px;
+            }
+            strong {
+                float: left;
+                display: inline-block;
+                height: 60px;
+                line-height: 60px;
+                font-size: 32px;
+            }
+        }
+    }
+    #section {
+        padding: 0 40px;
+        .news {
+            height: 60px;
+            line-height: 60px;
+            font-size: 18px;
+            color: #000333;
+            span {
+                display: inline-block;
+                width: 160px;
+                height: 60px;
+                line-height: 40px;
+                font-size: 28px;
+                color: #000333;
+            }
+            font {
+                font-size: 28px;
+            }
+            strong {
+                color: #FF5001;
+                font-size: 28px;
+            }
+        }
+        .btn {
+            margin: 0 auto;
+            margin-top: 40px;
+            width: 380px;
+            text-align: center;
+            height: 66px;
+            line-height: 66px;
+            color: #fff;
+            font-size: 32px;
+            background: linear-gradient(to left, #ff8f00, #ff5001);
+            border-radius: 5PX;
+        }
+    }
+}

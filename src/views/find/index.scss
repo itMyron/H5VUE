@@ -1,0 +1,76 @@
+.contain {
+    .header {
+        height: 180px;
+        background: url(../../assets/find/header.png) no-repeat center;
+        background-size: cover;
+    }
+    .section {
+        .news1 {
+            background: #fff;
+            padding: 20px 0;
+            margin-top: 20px;
+            .list {
+                padding: 0 5% 0 15%;
+                width: 30%;
+                strong {
+                    font-size: 32px;
+                    color: #000333;
+                }
+                p {
+                    font-size: 24px;
+                    color: #8C8C8C;
+                    padding: 10px 0;
+                }
+            }
+            .list1 {
+                float: left;
+                background: url(../../assets/find/icon1.png) no-repeat 0.06px center;
+                background-size: 100px;
+            }
+            .list2 {
+                float: right;
+                background: url(../../assets/find/icon2.png) no-repeat 0.06px center;
+                background-size: 100px;
+            }
+        }
+        .news2 {
+            margin-top: 20px;
+            background: #fff;
+            .list {
+                float: left;
+                width: 29.5%;
+                padding-left: 20%;
+                height: 200px;
+                line-height: 200px;
+                background: #fff;
+                font-size: 32px;
+                color: #000333;
+                font-weight: 600;
+            }
+            .list1 {
+                background: #fff url(../../assets/find/icon3.png) no-repeat 30px center;
+                background-size: 100px;
+                border-right: 4px solid #F4F4F4;
+                border-bottom: 4px solid #F4F4F4;
+                /*margin-bottom:0.8% ;*/
+            }
+            .list2 {
+                background: #fff url(../../assets/find/icon4.png) no-repeat 30px center;
+                background-size: 100px;
+                float: right;
+                border-bottom: 4px solid #F4F4F4;
+                /*margin-bottom:0.8% ;*/
+            }
+            .list3 {
+                background: #fff url(../../assets/find/icon5.png) no-repeat 30px center;
+                background-size: 100px;
+                border-right: 4px solid #F4F4F4;
+            }
+            .list4 {
+                background: #fff url(../../assets/find/icon6.png) no-repeat 30px center;
+                background-size: 100px;
+                float: right;
+            }
+        }
+    }
+}

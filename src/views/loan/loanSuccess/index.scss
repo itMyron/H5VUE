@@ -1,0 +1,141 @@
+#contain {
+    height: 100%;
+    padding-bottom: 240px;
+    table {
+        width: 100%;
+        background: linear-gradient(to left, #ff8f00, #ff5001);
+        padding: 40px 0;
+        tr {
+            width: 100%;
+            height: 100px;
+            td,
+            th {
+                text-align: center;
+                height: 50px;
+                font-size: 28px;
+                color: #fff;
+            }
+            th {
+                font-size: 60px;
+                width: 25%;
+            }
+            #btn {
+                text-align: center;
+                width: 40%;
+                span {
+                    display: inline-block;
+                    width: 80px;
+                    height: 80px;
+                    line-height: 75px;
+                    border-radius: 50%;
+                    background: #fff;
+                    color: #FF5001;
+                    font-size: 60px;
+                }
+            }
+        }
+    }
+    #saasList {
+        display: none ;
+        .btnWrap {
+            width: 100%;
+            height: 88px;
+            margin: 40px 0;
+            text-align: center;
+            .btn {
+                margin: 0 20px;
+                display: inline-block;
+                width: 250px;
+                text-align: center;
+                height: 88px;
+                line-height: 88px;
+                color: #fff;
+                font-size: 32px;
+                border-radius: 5PX;
+            }
+            .no {
+                background: #cccccc;
+            }
+            .confirm {
+                background: linear-gradient(to left, #ff8f00, #ff5001);
+            }
+            
+        }
+    }
+}
+
+#concernsFlag {
+    width: 90%;
+    margin: 15PX auto 0;
+    h5 {
+        width: 100%;
+        text-align: center;
+        font-weight: 600;
+        padding: 5PX 0;
+    }
+    div {
+        text-indent: 60px;
+        font-size: 28px;
+        line-height: 24PX;
+        color: #000333;
+    }
+    p {
+        padding: 10PX;
+        text-align: center;
+        textarea {
+            width: 0px;
+            height: 0px;
+            border: 0;
+        }
+        button {
+            color: #337AB7;
+            font-size: 16PX ;
+        }
+    }
+}
+
+.wrap {
+    padding: 20px;
+    .news {
+        .list {
+            font-size: 32px;
+            color: #000333;
+            height: 60px;
+            line-height: 60px;
+            a {
+                font-size: 32px;
+                color: #000333;
+            }
+            strong {
+                font-size: 32px;
+                color: #000333;
+            }
+            span {
+                font-size: 32px;
+                color: #000333;
+                color: #737373;
+            }
+            .detail {
+                color: #000333;
+                float: left;
+                font-weight: 600;
+            }
+            .right {
+                float: left;
+                margin-left: 20px;
+                color: #000333;
+            }
+        }
+    }
+    .news1 {
+        .list3 {
+            color: #737373;
+            font-size: 28px;
+        }
+        .list4 {
+            font-weight: 600;
+            font-size: 40px;
+            color: #ff5001;
+        }
+    }
+}

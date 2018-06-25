@@ -1,0 +1,38 @@
+.contain {
+    height: 100%;
+    background: #F4F4F4;
+    .header {
+        height: 276px;
+        width: 100%;
+        background: url(../../../assets/user/about/xh.png) no-repeat right center;
+        background-size: cover;
+    }
+    .section {
+        .news {
+            font-size: 28px;
+            padding: 40px;
+            color: #000333;
+        }
+        .news2 {
+            padding-top: 10px;
+            padding-bottom: 40px;
+            p {
+                padding-top: 20px;
+            }
+        }
+        .news3 {
+            padding-top: 10px;
+            #BaiduDitu {
+                width: 100%;
+                height: 600px;
+                border: none;
+                float: left;
+            }
+        }
+    }
+}
+
+.BMap_pop,
+.anchorBL {
+    display: none;
+}

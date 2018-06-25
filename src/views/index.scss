@@ -1,0 +1,144 @@
+//头部通知栏
+.header p {
+    background: #fffaf3;
+    height: 88px;
+    line-height: 88px;
+    i {
+        display: block;
+        float: left;
+        height: 36px;
+        width: 36px;
+        background: url(../assets/home/notice.png) no-repeat center;
+        background-size: cover;
+        margin-left: 36px;
+        margin-top: 26px;
+    }
+    span {
+        display: block;
+        float: left;
+        margin: 0 20px;
+        font-size: 28px;
+        color: #ff5b00;
+    }
+    marquee {
+        float: left;
+        display: block;
+        height: 88px;
+        line-height: 88px;
+        font-size: 32px;
+        width: 500px;
+        font-size: 28px;
+        color: #ff5b00;
+    }
+}
+
+//轮播图
+#nav{
+    height: 150PX;
+    img{
+        width: 100%;
+        height: 150PX;
+    }
+}
+
+
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+}
+
+.el-carousel__item:nth-child(n) {
+    background: url(../assets/home/banners.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.section {
+    background: #f4f4f4;
+    .news {
+        h3 {
+            height: 80px;
+            line-height: 80px;
+            padding-left: 38px;
+            font-size: 28px;
+            color: #000333;
+        }
+        .list1 {
+            position: relative;
+            width: 100%;
+            height: 278px;
+            a {
+                position: absolute;
+                width: 100%;
+                text-align: center;
+                height: 278px;
+                line-height: 278px;
+                color: #fff;
+                font-size: 56px;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+            }
+            
+        }
+        
+        .list2 {
+            height: 100px;
+            padding-left: 38px;
+            padding-top: 14px;
+            background: #fff;
+            .newsNum {
+                height: 94px;
+                float: left;
+                width: 33.33%;
+                background: #FFF;
+                h4 {
+                    height: 47px;
+                    width: 100%;
+                    color: #333333;
+                    font-size: 28px;
+                }
+                h5 {
+                    height: 36px;
+                    width: 100%;
+                    color: #686d9b;
+                    font-size: 20px;
+                }
+                strong {
+                    display: block;
+                    width: 100%;
+                    height: 94px;
+                    line-height: 94px;
+                    text-align: left;
+                    color: #ff5b00;
+                    font-size: 5px;
+                    margin-top: -10px;
+                }
+            }
+            .newsNum .btnApply {
+                display: block;
+                width: 200px;
+                height: 72px;
+                line-height: 72px;
+                border: 2PX solid #ff843f;
+                text-align: center;
+                margin: 5px 0 0 10px;
+                border-radius: 10px;
+                color: #ff843f;
+                font-size: 28px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

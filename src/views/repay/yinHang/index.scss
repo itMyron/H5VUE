@@ -1,0 +1,94 @@
+.section {
+    .news {
+        padding: 0 44px;
+        background: #fff;
+    }
+    .news1 {
+        .list1 {
+            padding: 70px 0;
+            strong {
+                display: block;
+                font-size: 32px;
+                color: #000333;
+            }
+            b {
+                display: block;
+                font-size: 32px;
+                color: #000333;
+                padding-top: 50px;
+            }
+        }
+        .list2 {
+            .credit {
+                color: #7c80a8;
+                text-align: center;
+                font-size: 32px;
+            }
+            .money {
+                font-size: 28px;
+                color: #ff5b00;
+                text-align: center;
+                strong {
+                    font-size: 52px;
+                }
+            }
+        }
+        .list3 {
+            padding: 34px 0;
+            border-bottom: 1PX solid #8d91b4;
+            .startDate {
+                float: left;
+                font-size: 28px;
+                span {
+                    margin-right: 10px;
+                    color: #7c80a8;
+                }
+            }
+            .endDate {
+                float: right;
+                font-size: 28px;
+                span {
+                    margin-right: 10px;
+                    color: #7c80a8;
+                }
+            }
+        }
+    }
+    .news2 {
+        .list {
+            padding: 34px 0;
+            .interestData {
+                float: left;
+                font-size: 28px;
+                span {
+                    color: #7c80a8;
+                    padding: 0 15px;
+                }
+            }
+            .payInterest {
+                float: right;
+                font-size: 28px;
+                span {
+                    color: #7c80a8;
+                    padding: 0 15px;
+                }
+            }
+        }
+    }
+    .done {
+        float: left;
+        background: #999999;
+        border-radius: 50px;
+        padding: 0px 24px;
+        font-size: 28px;
+        color: #fff;
+    }
+    .undone {
+        float: left;
+        background: #FF5001;
+        border-radius: 50px;
+        padding: 0px 24px;
+        font-size: 28px;
+        color: #fff;
+    }
+}

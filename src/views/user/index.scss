@@ -1,0 +1,164 @@
+.contain {
+    height: 100%;
+    background: #F4F4F4;
+    .section .news1 {
+        width: 100%;
+        height: 350px;
+        background: url(../../assets/user/bg.png) no-repeat center;
+        background-size: cover;
+        .list1 {
+            padding-left: 70px;
+            padding-top: 120px;
+            .left {
+                float: left;
+                width: 136px;
+                height: 136px;
+                border-radius: 50%;
+                background: url(../../assets/user/ren.png) no-repeat center;
+                background-size: cover;
+            }
+            .right {
+                float: left;
+                padding-top: 20px;
+                padding-left: 40px;
+                strong {
+                    display: block;
+                    padding: 10px 0;
+                }
+                span {
+                    display: block;
+                    padding: 5px 0;
+                }
+            }
+        }
+    }
+    .news2 {
+        .wrap {
+            padding: 0 36px;
+            background: #fff;
+            .list {
+                height: 88px;
+                background: #fff;
+                border-bottom: 1px solid #c6c8d9;
+                span {
+                    display: block;
+                    float: left;
+                    height: 88px;
+                    line-height: 88px;
+                    width: 220px;
+                    color: #000333;
+                    font-size: 32px;
+                }
+                b {
+                    display: block;
+                    float: left;
+                    width: 40px;
+                    height: 40px;
+                    margin-top: 26px;
+                    margin-right: 20px;
+                }
+                a {
+                    display: block;
+                    float: right;
+                    height: 88px;
+                    line-height: 88px;
+                    padding-right: 50px;
+                    width: 200px;
+                    text-align: right;
+                    background: url(../../assets/user/icon16.png) no-repeat right center;
+                    i {
+                        padding: 8px 16px;
+                        border-radius: 40px;
+                        font-style: normal;
+                        font-size: 24px;
+                        color: #ff5b00;
+                        background: #ffede6;
+                    }
+                }
+            }
+            .list0 {
+                b {
+                    background: url(../../assets/user/icon41.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+            .list1 {
+                b {
+                    background: url(../../assets/user/icon29.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+            .list2 {
+                b {
+                    background: url(../../assets/user/icon30.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+            .list3 {
+                b {
+                    background: url(../../assets/user/icon31.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+            .list4 {
+                b {
+                    background: url(../../assets/user/icon32.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+            .list5 {
+                b {
+                    background: url(../../assets/user/icon33.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+            .list6 {
+                b {
+                    background: url(../../assets/user/icon34.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+    .news3 {
+        padding: 80px 0 80px 0;
+        .list1 {
+            height: 60px;
+            line-height: 60px;
+            width: 300px;
+            margin: 0 auto;
+            padding-left: 60px;
+            color: #FF5B00;
+            span {
+                float: left;
+                display: block;
+                width: 30px;
+                height: 30px;
+                margin-top: 10px;
+                margin-right: 10px;
+                background: url(../../assets/user/icon35.png) no-repeat left center;
+                background-size: cover;
+            }
+            a {
+                float: left;
+            }
+        }
+        .list2 {
+            height: 60px;
+            line-height: 60px;
+            width: 300px;
+            margin: 0 auto;
+            padding-left: 60px;
+            span {
+                float: left;
+                display: block;
+                width: 30px;
+                margin-top: 10px;
+                margin-right: 10px;
+                height: 30px;
+                background: url(../../assets/user/icon36.png) no-repeat left center;
+                background-size: cover;
+            }
+        }
+    }
+}

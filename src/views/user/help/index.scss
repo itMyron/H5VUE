@@ -1,0 +1,24 @@
+.contain {
+    height: 100%;
+    background: #F4F4F4;
+    .section {
+        .news {
+            background: #fff;
+            padding: 0 40px;
+            .title {
+                color: #000333;
+                font-size: 32px;
+                padding: 32px 20px 32px 0;
+                border-bottom: 2PX solid #e1e2eb;
+                background: url(../../../assets/user/help/icon16.png) no-repeat right center;
+            }
+            .content {
+                color: #686d9b;
+                font-size: 28px;
+                padding: 20px 0;
+                border-bottom: 2PX solid #e1e2eb;
+                 //display: none;
+            }
+        }
+    }
+}

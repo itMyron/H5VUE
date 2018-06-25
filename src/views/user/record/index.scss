@@ -1,0 +1,105 @@
+#header {
+    display: flex;
+}
+
+#header span {
+    flex: 1;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 2PX solid #CCCCCC;
+}
+
+#header .navItem {
+    color: #FF5001;
+    border-bottom: 2PX solid #FF5001;
+}
+
+#section {
+    padding: 0px 0 120px;
+}
+
+#section article {
+    padding: 30px 38px;
+    border-bottom: 1PX solid #CCCCCC;
+}
+
+
+/*span,strong,i{
+	font-size: 0.32px;
+	color: #8C8C8C;
+}*/
+
+
+/*span{
+	color: #000333;
+}*/
+
+
+/*i{
+	font-style: normal;
+	float: right;
+}*/
+
+.list {
+    padding: 8px 0;
+}
+
+.list span {
+    font-size: 32px;
+    color: #666;
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.list i {
+    float: right;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.list0 span {
+    border-radius: 100px;
+    color: #fff;
+    font-size: 28px;
+}
+
+.list0 font {
+    color: #666;
+    font-size: 28px;
+}
+
+.list0 b {
+    color: #FF5001;
+    font-size: 28px;
+}
+
+.type0 {
+    /*计息中*/
+    background: #FF5001;
+}
+
+.type1 {
+    /*已还款*/
+    background: #999;
+}
+
+.type2 {
+    /*预期*/
+    background: red;
+}
+
+.type4 {
+    /*居间费*/
+    background: #686d9b;
+}
+
+.success {
+    color: #ff5001;
+}
+
+.error {
+    color: #666;
+}

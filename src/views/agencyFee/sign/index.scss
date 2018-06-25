@@ -1,0 +1,116 @@
+.contain {
+    background: #F4F4F4;
+    .section {
+        .news {
+            background: #F4F4F4;
+            padding: 0 22px;
+        }
+        .news1 {
+            .list1 {
+                padding: 60px 0;
+                height: 102px;
+                background: #fff;
+                span {
+                    display: block;
+                    width: 102px;
+                    height: 102px;
+                    background: url(../../../assets/agencyFee/sign/time.png) no-repeat center;
+                    background-size: cover;
+                    margin: 0 auto;
+                }
+            }
+            .list2 {
+                background: #fff;
+                padding-bottom: 110px;
+                text-align: center;
+                font-size: 28px;
+                height: 46px;
+                
+            }
+        }
+        .news2 {
+            .list1 {
+                background: url(../../../assets/agencyFee/sign/division.png) no-repeat center;
+                background-size: cover;
+                height: 32px;
+            }
+        }
+        .news3 {
+            .list {
+                background: #fff;
+                padding: 10px 0;
+                span {
+                    display: block;
+                    float: left;
+                    color: #686D9B;
+                    width: 125px;
+                    padding-left: 95px;
+                    background: #fff;
+                }
+                p {
+                    float: left;
+                    width: 470px;
+                    color: #000333;
+                }
+            }
+        }
+        .news4 {
+            padding: 118px 0 20px 0;
+            .list1 {
+                height: 60px;
+                line-height: 60px;
+                width: 300px;
+                margin: 0 auto;
+                padding-left: 60px;
+                color: #FF5B00;
+                span {
+                    float: left;
+                    display: block;
+                    width: 30px;
+                    height: 30px;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    background: url(../../../assets/agencyFee/sign/icon35.png) no-repeat left center;
+                    background-size: cover;
+                }
+                a {
+                    float: left;
+                }
+            }
+            .list2 {
+                height: 60px;
+                line-height: 60px;
+                width: 300px;
+                margin: 0 auto;
+                padding-left: 60px;
+                span {
+                    float: left;
+                    display: block;
+                    width: 30px;
+                    margin-top: 10px;
+                    margin-right: 10px;
+                    height: 30px;
+                    background: url(../../../assets/agencyFee/sign/icon36.png) no-repeat left center;
+                    background-size: cover;
+                }
+            }
+        }
+        .news5 {
+            padding-top: 40px;
+            text-align: center;
+            .list1 {
+                width: 600px;
+                text-align: center;
+                height: 88px;
+                line-height: 88px;
+                color: #fff;
+                font-size: 32px;
+                margin: 0 auto;
+                background: linear-gradient(to left, #ff8f00, #ff5001);
+                border-radius: 5PX;
+                border: none;
+            }
+        }
+    }
+}
+
